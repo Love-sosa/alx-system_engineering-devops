@@ -1,2 +1,2 @@
-#!/bin/bash
-dir_count=$(find . -type d | wc -l)
+#!/bin/bash 
+dir_count=$(find . -mindepth 1 -maxdepth 1 -type d | wc -l)
